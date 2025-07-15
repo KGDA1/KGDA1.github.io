@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Music Chart</title>
+    <style>
+      body{
+background-color: f5371d;
+      }
+    </style>
+     <script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"></script>
+  </head>
+
+  
+  <body>
+<h1>My favorite Fattmack songs:</h1>
+    <div id="plot"></div>
+    <script>
+     Let songs = ["Euphoria2","BLRDDD","Yellow"];
+    Let views = [2418370, 3497615, 429500 ];
+    Let trace = {
+      x: songs,
+      y: views,
+      type: "bar"
+    }; 
+      Let data = [trace];
+      plotly.newplot("plot", data);
+    </script>
+    <footer>
+      <center>
+        <hr>
+        <p><em>Kylan Website&copy; 2025</em></p>
+      </center>
+    </footer>
+ </body>
+</html>
