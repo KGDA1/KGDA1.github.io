@@ -15,5 +15,5 @@ let circleMarker = L.circle(coordinates,{
  color: "Red", 
    fillColor: "Gold",
   fill0pacity: 0.25,
-  radius; 50
+  radius: 50
 }).bindPopup(`<iframe width="280" height="160" src="https://www.youtube.com/embed/5tRNJ12nSIY?si=TWpneRoNRGZLfqWO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`).addTo(map);
